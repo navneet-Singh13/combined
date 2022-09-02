@@ -1,0 +1,80 @@
+body { 
+    background-color: black;
+}
+#bar  { 
+    flex-wrap: wrap-reverse;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 7, 7);
+    height: 200px ;
+    color:white ; 
+    padding  : 10px; 
+    border-radius: 55px;
+    transition: background 1200ms;
+    
+}
+#bar:hover{ 
+    background-color: blue;
+}
+#PROJECTS{ 
+    
+    padding: 5px;
+    font-family: 'Audiowide', cursive;
+    margin-top: 0;
+    
+    font-size: 70px;
+    color : black ; 
+    
+}
+
+#content { 
+    
+    display:flex;
+    background-color:black;
+    height: 1000px ;
+    border-radius: 100px ;
+}
+#content h1 { 
+    padding: 50px  ;
+    padding-left: 80px ;
+    color : white ; 
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+#this{ 
+    color : blue ;
+}
+#c{ 
+    color : blue ; 
+}
+.btn { 
+    margin : 20px ;
+    padding : 20px ; 
+    margin-left: 40px ;
+    box-shadow:  5px 5px white;
+    transition: box-shadow 500ms;
+    color:white  ;
+    background-color: rgb(11, 167, 0);
+    font-size:xx-large;
+    font-weight: bold ;
+    border-radius: 10px ;
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 10px;
+    border: solid;
+    border-width: 10px;
+    border-color: blue;
+}
+ 
+.btn:hover { 
+    box-shadow: 1px 8px  blue , 10px 20px  white, 15px 15px  black ; ;
+    cursor: pointer;
+    color : black ; 
+}
+ul{ 
+    list-style: none ; 
+}
+.none{ 
+    height: 250px;
+}
